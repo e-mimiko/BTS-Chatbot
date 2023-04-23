@@ -1,2 +1,212 @@
 # BTS-Chatbot
-This chatbot teaches you about KPOP, and in particular, the boyband BTS.
+Chatbot Description
+===================
+
+This chatbot teaches you about KPOP, and in particular, the boyband BTS. My chatbot will also chat with you about anything, if it knows it. Its main features include:  
+
+1. Matching keywords to a response so that if you type, “teach me something” or “will you teach me something”, it will match teach and respond with “Ask me about kpop” or something similar. The response is a random entry from that specific keywords directory. 
+
+2. Transposing responses, so if you type, “I am a cat”, or something similar with the keyword “I am”, it will respond with “why are you a cat”, or something similar. 
+
+3. Another feature it has is the ability to store inputs to be used in later responses. For example, if you type “I am worried about my studies”, then later type, “I am angry”, the chatbot will respond with “Do you think your anger is because of your studies?”. The chatbot will store the whole string containing worried since this is one of its keywords and then store anger and replace them depending on whether it is an adjective or noun to be used in the final response. 
+
+4. The chatbot will also remember an input if it matches a keyword in the top of the directory and will repeat the question every once in a while, just to offset the default responses when there is no valid keyword. 
+
+5. The Chatbot knows if the user is repeating themselves and mention it. 
+
+6. The Chatbot takes input regardless of the form i.e. “how are you” and “HOW are YoU” will produce the same response. 
+
+
+
+Transcript A
+==========
+
+You> hi 
+Chatty> What's up
+
+You> tell me a joke
+Chatty> Hmmm...
+
+You> what?
+Chatty> What do you think?
+
+You> i dont know, hence why im asking
+Chatty> That's perfectly okay
+
+You> then help me learn about something                  
+Chatty> whats your name
+
+You> emi!
+Chatty> Oh really?
+
+You> yes
+Chatty> Quite a perspective
+
+You> i guess. can you teach me something
+Chatty> Ask me anything about kpop!
+
+You> what is kpop
+Chatty> It means Korean POP. There are an ernomous amount of boybands and girl groups
+
+You> which is your favourite band??
+Chatty> BTS hands down.
+
+You> why do you like bts?
+Chatty> They are hilarious to watch
+
+You> whats your favourite song by them
+Chatty> SEA is their best song to me
+
+You> how many members are there
+Chatty> There are 4 vocalists and 3 rapper members
+
+You> cool, whos your favourite member
+Chatty> Jimin is the best!
+
+You> why do you like jimin
+Chatty> He has a sweet voice !
+
+You> cool beans
+Chatty> Go on
+
+You> so can you read?
+Chatty> I wish :(
+
+You> since you like bts so much, can you watch tv
+Chatty> You want me to be able to watch tv?
+
+You> i assume you can
+Chatty> Do you enjoy talking about yourself?
+
+You> yes actually
+Chatty> Are you really saying yes?
+
+You> yeah
+Chatty> Do you think yes is the correct thing to say
+
+You> sorry i guess
+Chatty> Why do you apologize
+
+You> because you seem like you want me to
+Chatty> Is that the real reason?
+
+You> yeah...
+Chatty> Quite a perspective
+
+You> thanks!
+Chatty> No problem
+
+Transcript B
+=================
+
+You> so i am worried about my studies
+Chatty> Why are you worried about your studies?
+
+You> i feel anxiety for some reason
+Chatty> Do you think you are anxious because of your studies?
+
+You> yeah maybe
+Chatty> Do you think yes is the correct thing to say
+
+You> yeah?
+Chatty> Do you think yes is the correct thing to say
+
+You> yeah?
+Chatty> Heard you the first time
+
+You> then why did you ask again
+Chatty> Must there be a reason
+
+You> lol
+Chatty> That wasnt a joke
+
+You> oh okay
+Chatty> Go on
+
+You> i am sad about kobe
+Chatty> How does being sad about kobe make you feel?
+
+You> i feel so much anger
+Chatty> Do you think you are angry because of kobe?
+
+
+
+Transcript C
+===============
+
+
+You> i love going out to eat
+Chatty> Why do you love going out to eat?
+
+You> i think its nice
+Chatty> Why is that?
+
+You> i dont know. i just think its nice 
+Chatty> Why do you think that is
+
+You> no clue
+Chatty> Why no though
+
+You> i dont know 
+Chatty> Why do you think that is
+
+You> you repeat yourself a lot you know
+Chatty> Lets talk you for now, okay?
+
+You> lol
+Chatty> That wasnt a joke
+
+You> apparently
+Chatty> Hmmm...
+
+You> i am tired              
+Chatty> How does being tired make you feel?
+
+You> it makes me angry 
+Chatty> Go on
+
+You> i am generally angry at life
+Chatty> Why are you generally angry at life?
+
+You> life just makes me sad
+Chatty> Do you think you are sad because of life?
+
+You> yeah      
+Chatty> Do you think yes is the correct thing to say
+
+You> by the way, i saw a cactus in my dream
+Chatty> And?
+
+You> isnt it interesting?
+Chatty> Tell me more
+
+You> you are giving me a headache
+Chatty> What makes you think I am giving you a headache?
+
+You> who knows. anyways i have an assignment due today
+Chatty> Oh really?
+
+You> yeah
+Chatty> Do you think yes is the correct thing to say
+
+You> i am pretty sure
+Chatty> How does being pretty sure make you feel?
+
+You> confident
+Chatty> Tell me more
+
+You> i hate you
+Chatty> Why do you hate me?
+
+You> you took a while to finish
+Chatty> Why do you want to talk about me?
+
+You> i dont though
+Chatty> Oh really?
+
+You> im tired of talking to you so bye
+Chatty> Bye Bye!
+
+You> ^C
+
+
